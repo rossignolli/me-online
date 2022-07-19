@@ -48,7 +48,7 @@ export default function HomePage() {
                   alt='Github Logo'
                   className=' mr-2'
                 />
-                Github @rossignolli
+                Follow me in Github @rossignolli
               </a>
             </p>
           </div>
