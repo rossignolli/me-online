@@ -20,7 +20,7 @@ import Seo from '@/components/Seo';
 export default function HomePage() {
   return (
     <Layout>
-      <Seo templateTitle='Home' /> *
+      <Seo templateTitle='Home' />
       <main>
         <section className='bg-white'>
           <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
@@ -32,7 +32,7 @@ export default function HomePage() {
               alt='Vitor Rossignolli Profile Picture'
             />
 
-            <h1 className='m-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text p-4 text-8xl font-extrabold text-transparent'>
+            <h1 className=' md: lg:text- bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text p-4	 text-5xl font-extrabold text-transparent lg:text-8xl '>
               Vitor Vigarani Rossignolli
             </h1>
             <p className='font-bold text-black '>
@@ -48,7 +48,7 @@ export default function HomePage() {
                   alt='Github Logo'
                   className=' mr-2'
                 />
-                Follow me in Github @rossignolli
+                rossignolli
               </a>
             </p>
           </div>
